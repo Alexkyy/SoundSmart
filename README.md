@@ -1,1 +1,11 @@
-# repo-template
+
+  # Credit Perks Dashboard
+
+  This is a code bundle for Credit Perks Dashboard. The original project is available at https://www.figma.com/design/nkcBUILkGFqjxiPF5Qa3G0/Credit-Perks-Dashboard.
+
+  ## Running the code
+
+  Run `npm i` to install the dependencies.
+
+  Run `npm run dev` to start the development server.
+  
