@@ -1,0 +1,18 @@
+# Treat TypeScript files as JavaScript for GitHub language stats
+*.ts  linguist-language=JavaScript
+*.tsx linguist-language=JavaScript
+
+# (Optional alternatives — use ONE approach)
+# Ignore TS in stats:
+# *.ts  linguist-detectable=false
+# *.tsx linguist-detectable=false
+
+# from your repo root
+printf "%s\n" \
+"*.ts  linguist-language=JavaScript" \
+"*.tsx linguist-language=JavaScript" \
+> .gitattributes
+
+git add .gitattributes
+git commit -m "chore: show TypeScript as JavaScript on GitHub"
+git push
