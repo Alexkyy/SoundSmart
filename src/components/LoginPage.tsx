@@ -12,13 +12,13 @@ export function LoginPage({ onGoogleLogin }: LoginPageProps) {
       {/* Header */}
       <header className="bg-white border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-6">
-          <div className="flex items-center gap-3">
-            <div className="p-2 bg-blue-600 rounded-lg">
-              <Building2 className="w-6 h-6 text-white" />
+          <div className="flex items-center gap-3 mb-6">
+            <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl flex items-center justify-center">
+              <span className="text-2xl">💰</span>
             </div>
             <div>
-              <h1 className="text-2xl text-slate-900">Sound Credit Union</h1>
-              <p className="text-sm text-slate-600">Smart Money Dashboard</p>
+              <h1 className="text-2xl text-slate-900">SoundSmart</h1>
+              <p className="text-sm text-slate-600">for Sound Credit Union</p>
             </div>
           </div>
         </div>
